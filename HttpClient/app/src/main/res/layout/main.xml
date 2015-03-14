@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="get"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/getNullBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="null (value)"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="post"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/postJsonBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="post-json"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/responseTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomFontStyle"
+        />
+
+</LinearLayout>

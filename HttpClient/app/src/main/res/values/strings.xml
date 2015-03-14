@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HttpClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="url">http://172.17.17.77:5260/uploads</string>
+    <string name="uploadFile">file1.txt</string>
+
+</resources>
