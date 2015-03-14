@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/MnuOpc1"
+          android:title="Opcion1"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:orderInCategory="110"/>
+
+    <!-- android:icon="@android:drawable/ic_popup_sync" -->
+    <item android:id="@+id/MnuOpc2"
+          android:title="Opcion2"
+          android:icon="@android:drawable/ic_menu_compass"
+          android:orderInCategory="120"/>
+
+    <item android:id="@+id/MnuOpc3"
+          android:title="Opcion3"
+          android:icon="@android:drawable/ic_menu_agenda"
+          android:orderInCategory="130"/>
+
+    <item
+        android:id="@+id/menu_save"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="guardar"/>
+
+    <item
+        android:id="@+id/menu_new"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="nuevo"/>
+</menu>

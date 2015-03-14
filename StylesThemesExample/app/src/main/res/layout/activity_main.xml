@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/mypurple">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Android"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:background="@drawable/red_button"
+        style="@style/button_text"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Theme" />
+
+    <!-- android:background="@drawable/green_button"
+         no funciona correctamente - revisarlo -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Theme"
+        android:textSize="10sp"
+        />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Theme"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/androideImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsa F2 para ver el menú options"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
