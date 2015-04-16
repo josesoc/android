@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!--
+    android:showAsAction=["ifRoom" | "never" | "withText" | "always" | "collapseActionView"]
+
+    The "ifRoom" flag only shows the option if there is enough room. This should be your first choice in most cases.
+    This will however condense the title in the actionbar (see vertical oriented screenshot).
+
+    The "never" flag will have this option always in the overflow menu and never directly in the actionbar.
+
+    The use of the "always" flag is discouraged since it will force the option to always appear in the acitonbar.
+    Even if running on a very small screen size. This could render the title completely invisible.
+
+    As you might now an option menu can have both an android:title and an android:icon property.
+    You can use the "withText" flag together with always or ifRoom (use a pipe | in between) to force the text of
+    the item to show next to the icon when rendered in the actionbar.
+
+    The "collapseActionView" is only supported from API level 14 so let me ignore that.
+    -->
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/opcion1"
+        android:showAsAction="ifRoom"
+        android:title="OPCION1"/>
+
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/menu_save"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/menu_guardar"/>
+
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/menu_new"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_nuevo"/>
+
+    <!--android:showAsAction="never" -->
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/menu_settings"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_settings"/>
+</menu>
