@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Api
+       curl -i -H "Content-Type: application/json" -X POST -d "{\"name\":\"ROLE_USER\"}" http://localhost:8080/api/v1/roles
+    -->
+    <string name="roles_uri">http://192.168.1.106:9090/api/v1/roles/1</string>
+
+    <string name="app_name">RestTemplate</string>
+    <string name="id_label">The ID is</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">The Content is</string>
+    <string name="content_value">[content]</string>
+    <string name="action_refresh">Refresh</string>
+
+</resources>
