@@ -18,6 +18,17 @@ public class MainActivity extends Activity {
         //Obtenemos una referencia a la actionbar
         ActionBar abar = getActionBar();
 
+        //Podemos cambiar la imagen que muestra el ActionBar para que no sea la misma
+        //que el logo de la aplicación (por defecto)
+        //abar.setIcon(R.drawable.ic_launcher);
+
+        /*
+          Activa el botón: Up navigation button (is not back button)
+            Up button allows the user to navigate your app based on the hierarchical
+            relationships between screens.
+        */
+        //abar.setDisplayHomeAsUpEnabled(true);
+
         //Establecemos el modo de navegación por pestañas
         abar.setNavigationMode(
                 ActionBar.NAVIGATION_MODE_TABS);
