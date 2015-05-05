@@ -7,4 +7,11 @@
 
     </style>
 
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:background">#FFAA00</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">#ffff</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
 </resources>
