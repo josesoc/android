@@ -17,6 +17,23 @@ public class MainActivity extends ActionBarActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(getString(R.string.app_name));
+
+        /*
+        int[] res = {
+                android.R.drawable.ic_dialog_alert,
+                android.R.drawable.ic_menu_camera,
+                android.R.drawable.ic_menu_compass,
+                android.R.drawable.ic_menu_directions,
+                android.R.drawable.ic_menu_gallery
+                };
+         */
+
+        toolbar.setNavigationIcon(android.R.drawable.ic_menu_camera);
+        toolbar.setTitle("Title");
+        toolbar.setSubtitle("Sub");
+        toolbar.setLogo(R.drawable.ic_launcher);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
