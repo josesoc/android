@@ -52,7 +52,17 @@ public class MainActivity extends Activity {
     }
 
 
-    //background process
+    /**
+     * AsyncTask<Void, Void, RoleDto>
+     * 1 - El tipo de datos que recibiremos como entrada de la tarea en el método doInBackground().
+
+       2 - El tipo de datos con el que actualizaremos el progreso de la tarea, y que recibiremos como parámetro
+           del método onProgressUpdate() y que a su vez tendremos que incluir como parámetro del método publishProgress().
+
+       3 - El tipo de datos que devolveremos como resultado de nuestra tarea, que será el tipo de retorno del
+           método doInBackground() y el tipo del parámetro recibido en el método onPostExecute().
+
+     */
     private class HttpRequestTask extends AsyncTask<Void, Void, RoleDto> {
 
         @Override
