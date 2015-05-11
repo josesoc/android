@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">LocalizationExample</string>
+    <string name="title_activity_android_localize">Localization Example</string>
+    <string name="greet">Welldone Player!!</string>
+    <string name="langselection">Select the language in which you want to greet Player!!!!</string>
+    <string name="chooselang">Choose the language</string>
+
+    <string-array name="languages">
+         <item>Select language</item>
+         <item>English</item>
+         <item>Spanish</item>
+    </string-array>
+
+</resources>
