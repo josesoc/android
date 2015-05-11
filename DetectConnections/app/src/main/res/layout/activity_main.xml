@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking connections (opcion 1)"
+        android:id="@+id/opcionButton1"
+        android:onClick="checkingConnections1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking connections (opcion 2)"
+        android:id="@+id/opcionButton2"
+        android:onClick="checkingConnections2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking connections (opcion 3)"
+        android:id="@+id/opcionButton3"
+        android:onClick="checkingConnections3"/>
+
+</LinearLayout>
