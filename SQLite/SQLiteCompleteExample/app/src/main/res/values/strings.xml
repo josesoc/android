@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteCompleteExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="body_hint">body</string>
+    <string name="priority_hint">priority</string>
+    <string name="output_hint">output</string>
+    <string name="add_btn">Add</string>
+    <string name="getAll_btn">GetAll</string>
+
+</resources>
