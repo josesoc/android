@@ -39,7 +39,8 @@ public class Main extends Activity {
         webview.setWebChromeClient(new WebChromeClient());
 
         // Load the URL
-        webview.loadUrl("file:///android_asset/www/rgraphview.html");
+        //webview.loadUrl("file:///android_asset/www/rgraphview.html");
+        webview.loadUrl("file:///android_asset/www/mytest.html");
     }
 
 
