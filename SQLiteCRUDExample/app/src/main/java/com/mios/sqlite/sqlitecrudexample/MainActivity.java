@@ -63,7 +63,7 @@ public class MainActivity extends ListActivity {
             Toast.makeText(getApplicationContext(), "Couldn't create or open the database", Toast.LENGTH_LONG).show();
         } finally {
             if (sampleDB != null) {
-                sampleDB.execSQL("DELETE FROM " + tableName);
+                //sampleDB.execSQL("DELETE FROM " + tableName);
                 sampleDB.close();
             }
         }
