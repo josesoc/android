@@ -1,0 +1,57 @@
+package org.stockchart.core;
+
+import org.stockchart.utils.DoubleUtils;
+
+/**
+ * @author alexv
+ *
+ */
+public class PaintInfo 
+{
+	private static int getCoordinate(double value, double min, double factor)
+	{
+		if(DoubleUtils.equals(value, min)) return 0;
+		
+		return (int)Math.round((value - min) * factor);
+	}
+	public double Max;
+
+	public double Min;
+	
+	public boolean IsX = true;
+	
+	public boolean IsLogarithmic = false;
+	
+	public float Size = 0f;
+	
+	public int get(double value)
+	{
+		double max = IsLogarithmic?Math.log10(Max):Max;
+		double min = IsLogarithmic?Math.log10(Min):Min;		
+		double v = IsLogarithmic?Math.log10(value):value;
+		
+//		if(!IsLogarithmic)
+//		{
+//			max = DoubleUtils.magic(max);
+//			min = DoubleUtils.magic(min);
+//			v = DoubleUtils.magic(v);
+//		}
+//		
+		double length = max - min;
+		double factor = Size / length;
+		
+		return IsX?getCoordinate(v,min,factor):getCoordinate(max,v,factor);
+	}
+			
+	public void loadFrom(Axis axis)	
+	{
+		IsLogarithmic = axis.isLogarithmic();
+		
+		AxisRange range = axis.getAxisRangeOrGlobalAxisRange();
+		
+		Max = range.getMaxViewValueOrAutoValue();
+		Min = range.getMinViewValueOrAutoValue();	
+		IsX = axis.isHorizontal();
+		Size = axis.isVertical()?axis.getBounds().height():axis.getBounds().width();
+	}
+}

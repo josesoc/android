@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentWithToolbarMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Menu -->
+    <string name="action_favoritos">Favoritos</string>
+    <string name="action_preferencias">Preferencias</string>
+
+    <!-- Favorites Fragment menu -->
+    <string name="action_share">Share</string>
+
+    <!-- Preferences Fragment menu -->
+    <string name="action_send">Send</string>
+
+</resources>
