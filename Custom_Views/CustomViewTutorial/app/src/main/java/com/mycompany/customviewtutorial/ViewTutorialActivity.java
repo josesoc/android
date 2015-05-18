@@ -3,6 +3,9 @@ package com.mycompany.customviewtutorial;
 import android.app.Activity;
 import android.os.Bundle;
 
+/**
+* http://www.jayway.com/2012/06/25/creating-custom-android-views-part-1-extending-standard-views-and-adding-new-xml-attributes/
+*/
 public class ViewTutorialActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
