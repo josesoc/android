@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginUIDesign</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="loremipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lectus congue, euismod turpis ac, fermentum eros.
+    </string>
+</resources>

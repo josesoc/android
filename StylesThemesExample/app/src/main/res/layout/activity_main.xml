@@ -55,4 +55,12 @@
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal" />
 
+    <Button
+        android:background="@drawable/button_morao"
+        android:id="@+id/button_morao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morao"
+     />
+
 </LinearLayout>
