@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">DropDownDemo</string>
+    <string name="alt0">DropDownDemo</string>
+    <string name="alt1">A menu alt</string>
+    <string name="alt2">An other alt</string>
+
+</resources>

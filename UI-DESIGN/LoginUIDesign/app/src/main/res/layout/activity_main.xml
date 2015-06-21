@@ -8,6 +8,9 @@
     android:padding="30dp"
     android:weightSum="1">
 
+<!-- LinearLayoyt:  android:background="@drawable/fondo_gradient"
+                    NO parece funcionar. Muestra un color plano, no degradado -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
