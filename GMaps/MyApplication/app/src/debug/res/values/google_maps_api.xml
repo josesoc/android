@@ -1,0 +1,27 @@
+<resources>
+    <string name="google_maps_key_instructions" templateMergeStrategy="replace"><!--
+
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=3E:6C:49:6E:27:CB:8D:BD:A0:68:E8:16:E9:70:01:8E:CB:FB:B3:82%3Bcom.mycom.gmapsfromtemplate
+
+    You can also add your credentials to an existing key, using this line:
+    3E:6C:49:6E:27:CB:8D:BD:A0:68:E8:16:E9:70:01:8E:CB:FB:B3:82;com.mycom.gmapsfromtemplate
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    --></string>
+
+    <!-- Debug - Emulator Nexus 6 API 21 Google Android 5 Lolliput - OK -->
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyBVy7XwDsn4tYPrCtPH33subl3QwPoTpeY</string>
+
+    <!-- Pro - Physical mobile
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyD4aJY3PwMhAqaJDnU5CeWurh_evc03O_s</string>
+    -->
+    <!-- Pro - Physical mobile
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyCuAGQrIfQ4MHs01ofvkYNGRQWQBejkQZY</string>
+    -->
+
+</resources>
